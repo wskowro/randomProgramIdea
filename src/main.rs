@@ -27,7 +27,19 @@ fn main() {
         eprintln!("Couldn't write to file: {}", e);
     }
 
-    //TODO: Remove the idea from the list after it has been selected
+    let mut modified_data = input_data.clone();
+    modified_data.remove(n as usize);
 
+    let mut ideas = fs::OpenOptions::new()
+        .write(true)
+        .truncate(true)
+        .open("ideas.txt")
+        .unwrap();
+
+    for idea in modified_data {
+        if let Err(e) = writeln!(ideas, "{}", idea) {
+            eprintln!("Couldn't write to file: {}", e);
+        }
+    }
 
 }

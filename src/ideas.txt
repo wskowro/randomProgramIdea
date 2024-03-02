@@ -22,7 +22,6 @@ Library Management System
 Traffic Management System
 Hangman Game
 Text-Based Adventure Game
-Trading Application
 Search Engine
 Snake Game
 Text Editor
@@ -37,7 +36,6 @@ OpenCV to Blur a Video
 OpenCV Project for Shape Detection
 OpenCV Project for Face Detection
 OpenCV Project for Coin Detection
-Music Player
 Cryptography Application
 Password Manager
 Ball Game using OpenGL
@@ -54,3 +52,5 @@ Blackjack with AI
 Chess Game with AI
 Bike Race Game
 3D Bounce Ball Game
+Music Player
+Trading Application
